@@ -1,0 +1,572 @@
+@media (max-width: 767px) {
+
+
+
+    main {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+
+    }
+
+    main .back-img {
+        height: 100%;
+
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        background-image: url(images/netflix-img.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.7);
+
+
+    }
+
+    main .overlay {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+    /******************************************************************
+      * Here nav bar work start 
+      *******************************************************************/
+    .container {
+        margin: 0 0 !important;
+        max-width: 100%;
+    }
+
+    main nav {
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    main nav .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    main nav .logo img {
+        width: 100%;
+    }
+
+    main nav .nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    main nav .nav-list>*:first-child {
+        margin-right: 50px;
+
+    }
+
+    main nav .nav-list>*:last-child {
+        padding: 5px 10px;
+        background-color: #E50914;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+
+    /******************************************************************
+    * Here our main sec part start tagline 
+    *******************************************************************/
+
+    main .tagline {
+        color: white;
+        margin: auto;
+        height: 70%;
+        text-align: center;
+
+    }
+
+    main .tagline h1 {
+        font-size: 200%;
+        font-weight: 900;
+
+    }
+
+    main .tagline p {
+        font-size: 100%;
+        font-family: netflix1;
+
+    }
+
+    main .tagline .input-groups {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    main .tagline .input-groups .emaill {
+        width: 90%;
+        height: 56px;
+        background-color: rgba(255, 255, 255, 0);
+        border: solid white 1px;
+        border-radius: 5px;
+        margin-right: 20px;
+        caret-color: white;
+        padding: 0 10px;
+        color: white;
+    }
+
+    main .tagline .input-groups .btnn {
+        background-color: #E50914;
+        color: white;
+
+        height: 56px;
+        width: 30%;
+        border: none;
+        border-radius: 5px;
+        font-size: 70%;
+
+    }
+
+    main .tagline .input-groups label {
+        position: absolute;
+        font-size: 10px;
+        transition: all 0.3s ease;
+        top: 0;
+        left: 1%;
+        z-index: 999;
+        pointer-events: none;
+
+
+    }
+
+    .btn-div i {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+
+
+
+    /******************************************************************
+    * here our sec first-part 
+    *******************************************************************/
+
+    .first-part {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .first-part .tagline-fp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: white;
+
+    }
+
+    .first-part .tagline-fp h2 {
+
+        font-size: 6.5vw;
+        font-weight: bolder;
+        font-family: netflix2;
+    }
+
+    .first-part .tagline-fp p {
+        font-size: 3vw;
+
+    }
+
+    .first-part .img-fp {
+
+        order: 2;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-part .img-fp img {
+        width: 100%;
+
+
+    }
+
+    .first-part .img-fp video {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+
+    main {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+
+    }
+
+    main .back-img {
+        height: 100%;
+
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        background-image: url(images/netflix-img.jpg);
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.7);
+
+
+    }
+
+    main .overlay {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+    /******************************************************************
+      * Here nav bar work start 
+      *******************************************************************/
+    .container {
+        margin: 0 0 !important;
+        max-width: 100%;
+    }
+
+    main nav {
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    main nav .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    main nav .logo img {
+        width: 50%;
+    }
+
+    main nav .nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    main nav .nav-list>*:first-child {
+        margin-right: 50px;
+
+    }
+
+    main nav .nav-list>*:last-child {
+        padding: 5px 10px;
+        background-color: #E50914;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+
+    /******************************************************************
+    * Here our main sec part start tagline 
+    *******************************************************************/
+
+    main .tagline {
+        color: white;
+        margin: auto;
+        height: 70%;
+        text-align: center;
+
+    }
+
+    main .tagline h1 {
+        font-size: 200%;
+        font-weight: 900;
+
+    }
+
+    main .tagline p {
+        font-size: 100%;
+        font-family: netflix1;
+
+    }
+
+    main .tagline .input-groups {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    main .tagline .input-groups .emaill {
+        width: 50%;
+        height: 56px;
+        background-color: rgba(255, 255, 255, 0);
+        border: solid white 1px;
+        border-radius: 5px;
+        margin-right: 20px;
+        caret-color: white;
+        padding: 0 10px;
+        color: white;
+    }
+
+    main .tagline .input-groups label {
+        position: absolute;
+        font-size: 10px;
+        transition: all 0.3s ease;
+        top: 0;
+        left: 12%;
+        z-index: 999;
+        pointer-events: none;
+
+
+    }
+
+    main .tagline .input-groups .btnn {
+        background-color: #E50914;
+        color: white;
+
+        height: 56px;
+        width: 30%;
+        border: none;
+        border-radius: 5px;
+        font-size: 70%;
+
+    }
+
+    .btn-div i {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+
+
+
+    /******************************************************************
+    * here our sec first-part 
+    *******************************************************************/
+
+    .first-part {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .first-part .tagline-fp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        color: white;
+
+    }
+
+    .first-part .tagline-fp h2 {
+
+        font-size: 6.5vw;
+        font-weight: bolder;
+        font-family: netflix2;
+    }
+
+    .first-part .tagline-fp p {
+        font-size: 3vw;
+
+    }
+
+    .first-part .img-fp {
+
+        order: 2;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-part .img-fp img {
+        width: 100%;
+
+
+    }
+
+    .first-part .img-fp video {}
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    main nav .row {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap !important;
+        height: auto;
+        margin: auto;
+
+    }
+
+    main nav .logo {
+        padding: 0 0;
+    }
+
+    main nav .logo img {
+        width: 90px;
+    }
+
+    main nav .nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        padding: 0 0;
+        justify-self: flex-end;
+    }
+
+    main nav .nav-list>*:first-child {
+        margin-right: 50px;
+
+    }
+
+    main nav .nav-list>*:last-child {
+        padding: 5px 10px;
+        background-color: #E50914;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    main .tagline .input-groups {
+
+        margin-top: 10px;
+    }
+
+    .first-part {
+        height: fit-content;
+        padding: 10px;
+
+    }
+
+    main .tagline .input-groups {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .tagline .input-groups .emaill {
+        width: 100%;
+        height: auto;
+        padding: 0 0;
+        margin: 0 0;
+        height: 50px;
+    }
+
+    main .tagline .input-groups label {
+        left: 2%;
+    }
+
+    main .tagline .input-groups .btn-div {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 310px) {
+  
+  main{
+    height: 70%;
+  }
+  
+    main nav{
+    padding: 0 0 !important;
+  }
+    main nav .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap !important;
+        height: auto;
+        margin: auto;
+
+    }
+    body p{
+        font-size: 10px !important;
+    }
+    body h1{
+        font-size: 20px !important;
+    }
+
+    main nav .logo {
+        margin: 20px 0;
+        padding: 0 0;
+        justify-content: center;
+    }
+
+    main nav .logo img {
+        width: 90px;
+
+    }
+main nav .nav-list{
+    width: 100%;
+    justify-content: space-around;
+}
+}
